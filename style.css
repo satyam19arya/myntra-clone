@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+/* ------------------------------------------------------------------------ */
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.left img{
+    width: 42px;
+    height: 40px;
+}
+
+.left{
+    align-items: center;
+}
+
+.container{
+    /* max-width: 90vw; */
+    padding: 0 3vw;
+    margin:auto;
+    /* border: 5px solid red; */
+}
+
+nav ul li{
+    list-style: none;
+    padding:0 12px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.hover:hover{
+    color:red;  
+    cursor: pointer;
+}
+
+.img-hover:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+nav{
+    font-size: 14px;
+}
+
+.right{
+    padding:10px;
+    align-items: center;
+}
+
+.mx-2{
+    margin: 12px;
+    font-weight: bolder;
+}
+
+.search{
+    width: 18vw;
+    padding: 7px 7px;
+    border: 0.1px solid #EEEEEE;
+    background: #f7f8fd;
+    border-radius: 4px;
+}
+
+/* ------------------------------------------------------------------------ */
+
+.section{
+    background-color: #EEEEEE96;
+}
+
+.section1{
+    height:95vh; 
+}
+
+.home-Img{
+    height:369px;
+}
+
+.home-Img2{
+    height:210px;
+    width:92.5vw;
+}
+
+.home-acc{
+    height: 200px;
+    width: 200px;
+}
+
+.section2{
+    background-color: #EEEEEE96;
+    height: 35vh;
+}
+
+.section3{
+    height:31.5vh;
+}
+
+.omg-img{
+    height:65px;
+    width:93.5vw;
+}
+
+.omg-img2{
+    height:150px;
+    width:93.5vw;
+}
+
+.shop-shop_by_category-img{
+    height:75px;
+    width:93.5vw;
+}
+
+
+.shop-photo{
+    height:250px;
+    width: 170px;
+    margin:12px;
+}
+
+/* ------------------------------------------------------------------------ */
+
+footer{
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    font-weight: bold;
+  }
